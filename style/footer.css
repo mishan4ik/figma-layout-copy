@@ -1,0 +1,23 @@
+.footer{
+	background-color: var(--backColorSite);
+	color: #fff;
+	padding: 104px 0 144px;
+}
+.footer__content>img+*{
+	margin-top: 74px;
+
+}
+.footer__nav li+li{
+	margin-top: 60px;
+}
+.footer__nav{
+	font-size: 25px;
+	font-weight: 600;
+
+}
+.footer__nav a{
+	transition: opacity 0.2s ease.
+}
+.footer__nav a:hover{
+	opacity: 0.8;
+}

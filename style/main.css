@@ -1,0 +1,66 @@
+@import './reset.css';
+@import './header.css';
+@import './home.css';
+@import './btn.css';
+@import './story.css';
+@import './product.css';
+@import './card.css';
+@import './footer.css';
+@import './avatar.css';
+@import './how-it-works.css';
+@import './toggle.css';
+@import './mobile_nav.css';
+@import './media.css';
+
+
+:root{
+
+--colorofSite :#01996D;
+--colorText: #484848;
+--fontfamily:'Georgia';
+--colorTextCardsWorks:#000000;
+--backColorSite:#245852;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #424242;
+	line-height: 1.5;
+}
+
+/* utility */
+
+.none{
+	display: none !important;
+}
+
+.visually_hidden{
+
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+	display: block;
+	margin-left: -10000px;
+	background: transparent;
+	font-size: 0;
+}
+
+/* Grid */
+
+.container{
+	max-width: 1400px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container_wide{
+	max-width: 1536px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
